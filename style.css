@@ -1,0 +1,184 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+
+* {
+  margin: 0;
+  padding: 100;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* added overflow-y to enable scrolling */
+}
+
+.page-header {
+  font-size: 36px;
+  text-align: center;
+  color: #a84448;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form {
+  padding: 40px;
+}
+
+header {
+  font-size: 24px;
+  text-align: center;
+  color: #a84448;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: #333;
+  background-color: #fff;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #a84448;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #810f14;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+  accent-color: #a84448;
+  cursor: pointer;
+}
+
+.checkbox label {
+  cursor: pointer;
+  color: #333;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.radio-group label {
+  cursor: pointer;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add border and animation to login form */
+.form.login {
+    border: 2px solid #a84448;
+    border-radius: 12px;
+    animation: bounceIn 1s ease-out;
+  }
+  
+  /* Define the bounceIn animation */
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+/* Make sure form inputs and buttons look consistent */
+input[type="email"],
+input[type="password"] {
+  border: 2px solid #a84448;
+}
+
+input[type="submit"] {
+  background-color: #a84448;
+  border: 2px solid #a84448;
+}
+
+input[type="submit"]:hover {
+  background-color: #810f14;
+  border: 2px solid #810f14;
+}
+
+
+
+
+    
